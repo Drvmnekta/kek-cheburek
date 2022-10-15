@@ -12,6 +12,8 @@ pillow = "^9.2.0"
 pynput = "^1.7.6"
 python-dotenv = "^0.21.0"
 
+[tool.poetry.scripts]
+kek-cheburek = 'app.main:main'
 
 [build-system]
 requires = ["poetry-core"]
